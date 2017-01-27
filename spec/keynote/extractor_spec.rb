@@ -6,6 +6,9 @@ describe Keynote::Extractor do
   end
 
   it "returns text from keynote presentation" do
-    expect(Keynote::Extractor::Parse.file()).to eq('file')
+    file = file = File.expand_path("spec/support/whydots.key", Dir.pwd)
+    file_text = Keynote::Extractor::Parse.text(file)
+    expect(file_text).to include('president')
+    expect(file_text).to include('greenhouse gas')
   end
 end
