@@ -3,8 +3,8 @@ require "keynote/extractor/version"
 module Keynote
   module Extractor
     class Parse 
-      def initialize(file)
-         
+      def self.text(file)
+        
       end 
     end 
   end

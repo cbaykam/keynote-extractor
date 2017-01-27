@@ -5,7 +5,7 @@ describe Keynote::Extractor do
     expect(Keynote::Extractor::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "returns text from keynote presentation" do
+    expect(Keynote::Extractor::Parse.file()).to eq('file')
   end
 end
