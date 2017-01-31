@@ -26,5 +26,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "nokogiri", "1.7.0"
   spec.add_development_dependency "rubyzip", "1.2.0"
-  spec.add_development_dependency "snappy", "0.0.15"
 end
