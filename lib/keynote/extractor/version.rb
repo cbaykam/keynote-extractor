@@ -1,5 +1,5 @@
 module Keynote
   module Extractor
-    VERSION = "0.1.1"
+    VERSION = "0.1.1.1"
   end
 end
