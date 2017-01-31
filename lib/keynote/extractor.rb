@@ -6,7 +6,7 @@ module Keynote
   module Extractor
     class Parse 
       def self.text(file)
-        content = ArchiveExtractor.return_index(file)
+        content = ArchiveExtractor.return_files(file)
         TextExtractor.get_text(content) 
       end   
     end 
