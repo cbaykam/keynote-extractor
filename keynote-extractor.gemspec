@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "nokogiri"
-  spec.add_development_dependency "rubyzip"
-  spec.add_development_dependency "snappy"
+  spec.add_development_dependency "nokogiri", "1.7.0"
+  spec.add_development_dependency "rubyzip", "1.2.0"
+  spec.add_development_dependency "snappy", "0.0.15"
 end
