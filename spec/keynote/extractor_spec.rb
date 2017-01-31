@@ -11,4 +11,9 @@ describe Keynote::Extractor do
     expect(file_text).to include('president')
     expect(file_text).to include('greenhouse gas')
   end
+
+  it "returns all iwa files from larger new keynote presentations" do 
+    file = file = File.expand_path("spec/support/process.key", Dir.pwd)
+    file_text = Keynote::Extractor::Parse.text(file)
+  end 
 end
