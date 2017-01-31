@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'zip'
-require 'snappy'
 
 module Keynote 
   module Extractor 
